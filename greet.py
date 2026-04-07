@@ -7,8 +7,7 @@ for i in range(1, 6):
 
 words = ["Hello", "this", "is", "a", "test"]
 
-sentence = ""
-for word in words:
-    sentence = sentence + word + " "
+# Build the sentence without adding a trailing space.
+sentence = " ".join(words)
 
 print(sentence)
